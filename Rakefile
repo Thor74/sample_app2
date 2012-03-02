@@ -1,5 +1,4 @@
-# Ruby on Rails Tutorial: sample application
+# Fixed Rake file
+require File.expand_path('../config/application', __FILE__)
 
-This is the sample application for
-[*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
-by [Michael Hartl](http://michaelhartl.com/).
+SampleApp2::Application.load_tasks
